@@ -9,6 +9,11 @@ body{
     background: url('src/exam.jpg')center /cover fixed no-repeat;
 }
 
+.cuscar{
+    width: 200px;
+    height: 130px;
+}
+
 .custom-card{
     text-align: center;
     border-radius: 0.25rem;

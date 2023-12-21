@@ -12,12 +12,14 @@
 </head>
 <body>
     <header>
+        <!-- Navigasi bar Home -->
         <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#Home">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="collapse1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Isi navigasi -->
                 <div class="collapse navbar-collapse" id="collapse1">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
@@ -27,6 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Information">Information</a></li>
                     </ul>
+                    <!-- Search bar dipojok kanan -->
                     <form role="search" class="d-flex">
                         <input type="search" class="form-control me-2" placeholder="Search" aria-label="search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -35,13 +38,15 @@
             </div>
         </nav>
     </header>
-
+    <!-- profile -->
     <section id="Profile">
         <div class="container-fluid" >
             <div class="row justify-content-center align-items-center">
+                <!-- container gambar atau sebelah kiri -->
                 <div class="col-md-5 text-center my-5">
                     <img class="img-thumbnail img-fluid m-5" src="src/profile.jpg" alt="profile" style="height: 500px;">
                 </div>
+                <!-- container isi data sebelah kanan -->
                 <div class="col-md-5 text-end text-white m-5">
                     <h1 class="display-5">Darryl Dimas Darmawan</h1>
                     <h3>Front-End Developer</h3>
@@ -50,11 +55,10 @@
                         now is the result of my project. I am happy to be able to share my knowledge and work through this platform. 
                         Thank you for visiting and I hope you find positive value in it. Feel free to get in touch if you have questions 
                         or feedback. Thank You!</h5>
-                    <a href="src/CV_MK8.pdf" download="text-light">
+                    <a href="src/CV_MK6.pdf" download>
                         <button class="btn btn-outline-light rounded">Download CV</button>
                     </a>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -65,23 +69,23 @@
                 <h3 class="display-5">Service</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quisquam rerum aspernatur aliquam repudiandae quidem ipsam voluptatibus, sequi porro expedita pariatur voluptate quae saepe. Iusto velit cumque fugiat odio amet?</p>
             </div>
-            <div class="row p-5">
+            <div class="row py-5">
                 <div class="col-sm-8 col-md-4">
-                    <div class="custom-card card border">
+                    <div class="custom-card card">
                         <div class="card-body">
                             <h5>Front-End Website</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-8 col-md-4">
-                    <div class="custom-card card border">
+                    <div class="custom-card card">
                         <div class="card-body">
                             <h5>Game Development</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-8 col-md-4">
-                    <div class="custom-card card border">
+                    <div class="custom-card card">
                         <div class="card-body">
                             <h5>Web Design</h5>
                         </div>
@@ -93,7 +97,7 @@
 
     <section id="Skill">
         <div class="container-lg text-white pt-5">
-            <h2><div class="display-5 text-center">My Skill</div></h2>
+            <h2><div class="display-3 text-center">My Skill</div></h2>
             <div class="row text-center">
                 <div class="col-md-6">
                     <div class="p-4">
@@ -112,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="py-5">
+                    <div class="p-4">
                         <ul class="text-white">
                             <h2><div class="display-5 text-white pt-5">Expertise</div></h2>
                             <li><label for="skill" class="fs-5">Hard Working</label></li>
@@ -127,7 +131,7 @@
     </section>
 
     <section id="Education">
-        <div class="container-lg py-5">
+        <div class="container-lg py-5 text-center">
             <h1><div class="display-5 text-white p-3">Information</div></h1>
             <div class="accordion" id="accordionHead">
                 <div class="accordion-item">
@@ -138,7 +142,10 @@
                     </h2>
                     <div class="accordion-collapse collapse show" id="collapOne">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia itaque odit sint. Soluta at dolorum, id voluptatum sequi exercitationem explicabo, corporis deserunt doloribus impedit placeat. Laborum sed consequatur totam?
+                            <strong>UNIVERSITAS BINA NUSANTARA (2018 - 2023)</strong>
+                            <P>Bachelor of Computer Science</P>
+                            <strong>SMK BONAVITA (2015 - 2018)</strong>
+                            <p>Teknik Komputer Dan Jaringan</p>
                         </div>
                     </div>
                 </div>
@@ -150,7 +157,11 @@
                     </h2>
                     <div class="accordion-collapse collapse" id="collapTwo">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatum quasi et ullam nam. Quod laudantium maxime impedit. Molestiae asperiores similique eos provident nam quisquam rerum dolores sit repellendus deleniti.
+                            <strong>Desa Segaran (Internship)</strong>
+                            <p>Web Development (2021 - 2022)</p>
+                            <p>●	Develop the website by adding existing facilities so that everyone can enjoy it <br>
+                                ●	Updating the website and changing the appearance of the website <br>
+                                ●	debugging the website and adding new features</p>
                         </div>
                     </div>
                 </div>
@@ -162,7 +173,7 @@
                     </h2>
                     <div class="accordion-collapse collapse" id="collapThree">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti sapiente adipisci sit repudiandae, quos cum voluptate cumque illo temporibus iusto quisquam magnam voluptatibus debitis explicabo alias minima, veritatis vero.
+                            <strong><a href="https://2201752016.github.io/Darryl/Main.html">Portofolio</a></strong>
                         </div>
                     </div>
                 </div>
@@ -174,7 +185,8 @@
                     </h2>
                     <div class="accordion-collapse collapse" id="collapFour">
                         <div class="accordion-body">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maiores harum repellat ullam, facilis neque unde nostrum veritatis, officiis ad quaerat voluptate reiciendis quos. Architecto quaerat laboriosam iusto mollitia doloribus.
+                            <strong>BootCamp Dibimbing (2024 - now)</strong>
+                            <p>Front-End Web Development</p>
                         </div>
                     </div>
                 </div>
@@ -183,11 +195,69 @@
     </section>
 
     <section id="Contact">
-        <div class="container-lg">
+        <div class="container-lg p-5 text-center">
             <h1><div class="display-5 text-white p-3">My Contact</div></h1>
-
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-white text-start">
+                        <h5><i class="bi bi-geo-alt-fill"></i>Address: Prima Tangerang</h5>
+                        <h5><i class="bi bi-telephone-fill"></i>Phone: +6287882864217</h5>
+                        <h5><i class="bi bi-envelope"></i>Email: ranceplain12@gmail.com</h5>
+                        <h5><i class="bi bi-linkedin"></i>Linkedin: <a href="https://www.linkedin.com/in/darryl-dimas-darmawan-2006761b8/">Darryl Dimas Darmawan</a></h5>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid text-gray text-start">
+                        <input type="text" class="w-100 my-2" id="name" placeholder="input your name....">
+                        <input type="email" class="w-100 my-2" id="email" placeholder="Input your email....">
+                        <textarea name="komentar" id="coment" cols="30" rows="5" class="w-100 my-2" placeholder="Input your comment..."></textarea>
+                        <button class="btn btn-outline-light " type="button" id="email">Submit</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
+    
+    <footer>
+        <div class="container-fluid bg-body-tertiary p-5">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-sm-3">
+                    <ul style="list-style: none;" class="navbar-nav w-50">
+                        <li class="nav-item"><a href="#" class="nav-link">Hard Skill</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Soft SKill</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Expertise</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul style="list-style: none;" class="navbar-nav w-50">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Information</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul style="list-style: none;" class="navbar-nav w-50">
+                        <li class="nav-item"><a href="#" class="nav-link">Web Design</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Game Design</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Web Development</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Debugging</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul style="list-style: none;" class="navbar-nav w-50">
+                        <li class="nav-item"><a href="#" class="nav-link">Tangerang</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">+6287882864217</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">ranceplain12@gmail.com</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center my-5">
+                &copy; 2023 Darry Dimas Darmawan | <a href="https://www.linkedin.com/in/darryl-dimas-darmawan-2006761b8/">Linkedin</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
